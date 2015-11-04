@@ -1,0 +1,19 @@
+{{define "title"}}
+  A developer. 20 years of experience. Go, JavaScript &amp; Java.
+{{end}}
+
+{{define "content"}}
+  <div class="row">
+    <div class="offset-by-one ten columns">
+      {{$l := len .}}
+      {{range $i, $e := .}}
+        {{if even $i}}<div class="row">{{end}}
+          <div class="six columns">
+            <h4><a href="{{$e.Slug}}">{{$e.Title}}</a></h4>
+            {{$e.Summary | html}}
+          </div>
+        {{if or (eq (inc $i) $l) (not (even $i))}}</div>{{end}}
+      {{end}}
+    </div>
+  </div>
+{{end}}

@@ -1,0 +1,15 @@
+{{define "title"}}
+  {{.Title}}
+{{end}}
+
+{{define "content"}}
+  <div class="row">
+    <div class="offset-by-one ten columns">
+      <h1>{{.Title}}</h1>
+      <p>
+        <em>{{.Written.Format "Jan 2, 2006"}}</em>
+      </p>
+      {{.Content | html}}
+    </div>
+  </div>
+{{end}}
