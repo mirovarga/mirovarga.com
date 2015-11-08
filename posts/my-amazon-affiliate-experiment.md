@@ -46,4 +46,4 @@ that they could be
 So far I made two sales and decided that I would wait while Amazon reviews
 the website. In case they reject it I will have to approach the idea differently.
 
-> There's a [sequel](/my-amazon-affiliate-experiment-a-sequel) to this post.
+> There's a [sequel](/my-amazon-affiliate-experiment-a-sequel.html) to this post.

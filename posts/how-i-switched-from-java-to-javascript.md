@@ -50,7 +50,7 @@ opinion*).
 
 As JavaScript imposes almost no structure on the code I can start working from
 scratch and iterate to a working program, like quickly
-[testing](/building-an-event-store-in-nodejs) interesting ideas and concepts.
+[testing](/building-an-event-store-in-node-js.html) interesting ideas and concepts.
 And of course I don't need an IDE - a nice editor like
 [Brackets](http://brackets.io/) is enough.
 

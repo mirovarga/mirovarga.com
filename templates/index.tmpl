@@ -9,7 +9,7 @@
       {{range $i, $e := .}}
         {{if even $i}}<div class="row">{{end}}
           <div class="six columns">
-            <h4><a href="{{$e.Slug}}">{{$e.Title}}</a></h4>
+            <h4><a href="{{$e.Slug}}.html">{{$e.Title}}</a></h4>
             {{$e.Content | summary | html}}
           </div>
         {{if or (eq (inc $i) $l) (not (even $i))}}</div>{{end}}

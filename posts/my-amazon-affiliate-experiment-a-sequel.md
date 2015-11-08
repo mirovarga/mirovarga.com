@@ -2,9 +2,9 @@
 
 *Mar 30, 2015*
 
-In the [previous post](/my-amazon-affiliate-experiment) I wrote about building
-a website to help people decide what to buy for their friends, family or
-themselves using the
+In the [previous post](/my-amazon-affiliate-experiment.html) I wrote about
+building a website to help people decide what to buy for their friends, family
+or themselves using the
 [Amazon product advertising API](https://affiliate-program.amazon.com/gp/advertising/api/detail/main.html).
 
 I had some doubts whether Amazon would accept the website to their affiliate
