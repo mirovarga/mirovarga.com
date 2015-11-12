@@ -8,8 +8,8 @@ generated to static HTML files by [Harp](http://harpjs.com).
 
 ## Why Another Static Blog Generator?
 
-It was a little tedious to add a post, and I wanted to switch to some static blog
-generator but couldn't decide which one to use.
+I wanted to switch to some static blog generator because it was a little tedious
+to add new posts to the blog, but couldn't decide which one to use.
 
 What I looked for:
 
