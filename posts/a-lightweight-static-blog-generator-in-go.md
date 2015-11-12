@@ -2,16 +2,16 @@
 
 *Nov 12, 2015*
 
-## Why Another One?
-
 From its start, this blog had been a custom built website using a combination of
 [Jade](http://jade-lang.com) for templates and Markdown for posts that were then
 generated to static HTML files by [Harp](http://harpjs.com).
 
+## Why Another Static Blog Generator?
+
 It was a little tedious to add a post, and I wanted to switch to some static blog
 generator but couldn't decide which one to use.
 
-## What I Looked for
+What I looked for:
 
 1. *No installation*. Just download a binary and that's all.
 
@@ -25,12 +25,11 @@ other words, I wanted a post to look like a post on its own.
 ## Introducing LitePub
 
 As I couldn't find a static blog generator that would meet my needs I decided to
-write [LitePub](https://github.com/mirovarga/litepub).
-
-It meets all the requirements:
+write [LitePub](https://github.com/mirovarga/litepub). I use it to generate this
+blog and it meets all my requirements:
 
 - it's a single binary
-- to create a new post just add an `.md` file to the `posts` directory
+- to create a new post I just add an `.md` file to the `posts` directory
 - title, date and tags (not supported yet) are parsed from the first lines of
   posts
 
