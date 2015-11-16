@@ -9,6 +9,13 @@
       <p>
         <em>{{.Written.Format "Jan 2, 2006"}}</em>
       </p>
+      {{if (len .Tags) ne 0}}
+        <p>
+          {{range .Tags}}
+            <em><a href="/tags/{{. | slug}}.html">{{.}}</a></em>&nbsp;
+          {{end}}
+        </p>
+      {{end}}
       {{.Content | html}}
 
       <div id="disqus_thread"></div>

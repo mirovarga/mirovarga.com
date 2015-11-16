@@ -2,6 +2,8 @@
 
 *Jan 21, 2015*
 
+*JavaScript*
+
 As I quite like the idea of
 [event sourcing](http://docs.geteventstore.com/introduction/event-sourcing-basics)
 I decided to build a simple event store in Node.js.

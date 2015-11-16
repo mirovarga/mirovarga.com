@@ -2,6 +2,8 @@
 
 *Jun 18, 2015*
 
+*Java*
+
 This week I was coding some Java and needed a way to check an InputStream's
 checksum. In addition to that, if the checksum was OK I then wanted to read from
 the stream.

@@ -2,6 +2,8 @@
 
 *Mar 27, 2015*
 
+*Go*
+
 On Mar 8, 2015, inspired by reading about affiliate marketing (mostly on
 [Reddit](http://reddit.com/r/entrepreneur)), I came up with a ~~great~~ idea that
 it couldn't be so difficult to earn money this way and that I would give it a try.

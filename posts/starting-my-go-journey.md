@@ -2,6 +2,8 @@
 
 *Feb 9, 2015*
 
+*Go*
+
 ## Trying Go for the First Time
 
 I first heard about the [Go](http://golang.org) programming language several

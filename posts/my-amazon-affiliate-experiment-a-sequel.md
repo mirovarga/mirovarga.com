@@ -2,6 +2,8 @@
 
 *Mar 30, 2015*
 
+*Go*
+
 In the [previous post](/my-amazon-affiliate-experiment.html) I wrote about
 building a website to help people decide what to buy for their friends, family
 or themselves using the

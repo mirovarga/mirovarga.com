@@ -2,6 +2,8 @@
 
 *Jan 25, 2015*
 
+*Java, JavaScript*
+
 I know that there are lots of posts about why JavaScript, or more specifically
 Node.js, is better than Java but nevertheless I wanted to contribute, too.
 
