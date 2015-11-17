@@ -2,7 +2,7 @@
 
 *Nov 12, 2015*
 
-*LitePub*
+*LitePub, Go*
 
 From its start, this blog had been a custom built website using a combination of
 [Jade](http://jade-lang.com) for templates and Markdown for posts that were then

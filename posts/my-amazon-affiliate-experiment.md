@@ -2,7 +2,7 @@
 
 *Mar 27, 2015*
 
-*Go*
+*Affiliate, Go*
 
 On Mar 8, 2015, inspired by reading about affiliate marketing (mostly on
 [Reddit](http://reddit.com/r/entrepreneur)), I came up with a ~~great~~ idea that

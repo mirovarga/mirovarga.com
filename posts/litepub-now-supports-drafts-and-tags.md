@@ -2,7 +2,7 @@
 
 *Nov 17, 2015*
 
-*LitePub*
+*LitePub, Go*
 
 In the previous couple of days I've been working on two new features for
 [LitePub](https://github.com/mirovarga/litepub): drafts and tags.
