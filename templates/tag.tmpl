@@ -5,7 +5,7 @@
 {{define "content"}}
   <div class="row">
     <div class="offset-by-one ten columns">
-      <h1>{{template "title" .}}</h1>
+      <h3>Posts Tagged <em>{{.Name}}</em></h3>
     </div>
   </div>
 
@@ -16,6 +16,14 @@
         {{if even $i}}<div class="row">{{end}}
           <div class="six columns">
             <h4><a href="/{{$e.Title | slug}}.html">{{$e.Title}}</a></h4>
+            <small>
+              <em>
+                {{$e.Written.Format "Jan 2, 2006"}}&nbsp;
+                {{range $e.Tags}}
+                  <a href="/tags/{{. | slug}}.html" title="Posts Tagged {{.}}">{{.}}</a>&nbsp;
+                {{end}}
+              </em>
+            </small>
             {{$e.Content | summary | html}}
           </div>
         {{if or (eq (inc $i) $l) (not (even $i))}}</div>{{end}}

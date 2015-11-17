@@ -7,15 +7,13 @@
     <div class="offset-by-one ten columns">
       <h1>{{.Title}}</h1>
       <p>
-        <em>{{.Written.Format "Jan 2, 2006"}}</em>
-      </p>
-      {{if (len .Tags) ne 0}}
-        <p>
+        <em>
+          {{.Written.Format "Jan 2, 2006"}}&nbsp;
           {{range .Tags}}
-            <em><a href="/tags/{{. | slug}}.html">{{.}}</a></em>&nbsp;
+            <a href="/tags/{{. | slug}}.html" title="Posts Tagged {{.}}">{{.}}</a>&nbsp;
           {{end}}
-        </p>
-      {{end}}
+        </em>
+      </p>
       {{.Content | html}}
 
       <div id="disqus_thread"></div>
