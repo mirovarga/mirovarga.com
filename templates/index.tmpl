@@ -5,12 +5,6 @@
 {{define "content"}}
   <div class="row">
     <div class="offset-by-one ten columns">
-      <h3>All Posts</h3>
-    </div>
-  </div>
-
-  <div class="row">
-    <div class="offset-by-one ten columns">
       {{$l := len .}}
       {{range $i, $e := .}}
         {{if even $i}}<div class="row">{{end}}
