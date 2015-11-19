@@ -28,7 +28,7 @@ other words, I wanted a post to look like a post on its own.
 ## Introducing LitePub
 
 As I couldn't find a static blog generator that would meet my needs I decided to
-write [LitePub](https://www.litepub.com). I use it to generate this
+write [LitePub](http://www.litepub.com). I use it to generate this
 blog and it meets all my requirements:
 
 - it's a single binary
