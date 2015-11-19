@@ -24,7 +24,7 @@
                 {{end}}
               </em>
             </small>
-            {{$e.Content | summary | html}}
+            {{(printf "%s <small>[Read more](/%s.html)</small>" ($e.Content | summary) (.Title | slug)) | html}}
           </div>
         {{if or (eq (inc $i) $l) (not (even $i))}}</div>{{end}}
       {{end}}
