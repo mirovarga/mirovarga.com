@@ -1,4 +1,5 @@
 # mirovarga.com
 
-The source
-for [mirovarga.github.io](https://github.com/mirovarga/mirovarga.github.io).
+The source of [my blog](http://www.mirovarga.com). It is used by
+[LitePub](https://github.com/mirovarga/litepub) to generate a static website
+from it.
