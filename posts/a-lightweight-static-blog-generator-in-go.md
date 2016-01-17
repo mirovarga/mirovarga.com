@@ -28,7 +28,7 @@ other words, I wanted a post to look like a post on its own.
 ## Introducing LitePub
 
 As I couldn't find a static blog generator that would meet my needs I decided to
-write [LitePub](http://www.litepub.com). I use it to generate this
+write [LitePub](https://github.com/mirovarga/litepub). I use it to generate this
 blog and it meets all my requirements:
 
 - it's a single binary
@@ -38,5 +38,5 @@ blog and it meets all my requirements:
 
 > If you're interested,
 download a [release](https://github.com/mirovarga/litepub/releases) and follow
-the [quick start](http://www.litepub.com/quick-start.html) to create
+the [quick start](https://github.com/mirovarga/litepub#quick-start) to create
 a sample blog.
