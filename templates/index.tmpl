@@ -5,10 +5,9 @@
 {{define "content"}}
   <div class="row">
     <div class="offset-by-one ten columns">
-      {{$l := len .}}
       {{range $i, $e := .}}
-        {{if even $i}}<div class="row">{{end}}
-          <div class="six columns">
+        <div class="row">
+          <div class="twelve columns">
             <h4><a href="/{{$e.Title | slug}}.html">{{$e.Title}}</a></h4>
             <small>
               <em>
@@ -20,7 +19,7 @@
             </small>
             {{(printf "%s <small>[Read more](/%s.html)</small>" ($e.Content | summary) (.Title | slug)) | html}}
           </div>
-        {{if or (eq (inc $i) $l) (not (even $i))}}</div>{{end}}
+        </div>
       {{end}}
     </div>
   </div>
