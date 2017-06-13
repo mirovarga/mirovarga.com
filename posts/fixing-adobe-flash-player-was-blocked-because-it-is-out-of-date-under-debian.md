@@ -1,4 +1,4 @@
-# Fixing 'Adobe Flash Player was blocked because it is out of date under' Debian
+# Fixing 'Adobe Flash Player was blocked because it is out of date' under Debian
 
 *Jun 13, 2017*
 
@@ -45,7 +45,7 @@ directory (create it if it doesn't exist already):
     > The `--disable-bundled-ppapi-flash` flag is probably not needed but one
     > never knows :)
     
-6. Close all Chromium windows and run it again.       
+6. Close all Chromium windows and run Chromium again.
     
     > **NB**: Typing `chrome://restart` in a tab won't update the Chromium flags
     > so Chromium will still use the out-of-date version of Flash Player.
