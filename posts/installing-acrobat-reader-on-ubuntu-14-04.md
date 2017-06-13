@@ -1,8 +1,8 @@
-# How to Install Acrobat Reader on Ubuntu 14.04
+# Installing Acrobat Reader on Ubuntu 14.04
 
 *Nov 21, 2015*
 
-*Linux*
+*Linux, How-to*
 
 Yesterday I was generating some PDFs with attachments in Java (using
 [Apache PDFBox](https://pdfbox.apache.org) if you're interested) and needed to
@@ -18,9 +18,11 @@ straightforward to install it on Ubuntu. But it's not complicated either.
 
 ## The Installation
 
-1. Download the
-[AdbeRdr9.5.5-1_i386linux_enu.deb](ftp://ftp.adobe.com/pub/adobe/reader/unix/9.x/9.5.5/enu/AdbeRdr9.5.5-1_i386linux_enu.deb)
-package.
+1. Download the `AdbeRdr9.5.5-1_i386linux_enu.deb` package:
+
+    ```
+    $ wget ftp://ftp.adobe.com/pub/adobe/reader/unix/9.x/9.5.5/enu/AdbeRdr9.5.5-1_i386linux_enu.deb
+    ```
 
 2. Install it:
 
@@ -51,8 +53,9 @@ package.
     ```
     $ sudo apt-get -f install --no-install-recommends
     ```
+    
     > `--no-install-recommends` is optional. I use it to avoid installing
-      unneeded packages.
+    >  unneeded packages.
 
 4. Everything should be fine now and you can run Acrobat Reader:
 
