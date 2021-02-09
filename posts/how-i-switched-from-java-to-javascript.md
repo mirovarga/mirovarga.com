@@ -1,8 +1,12 @@
-# How I Switched from Java to JavaScript
-
-*Jan 25, 2015*
-
-*Java, JavaScript*
+---
+title: How I Switched from Java to JavaScript
+description: I know that there are lots of posts about why JavaScript, or more
+  specifically Node.js, is better than Java but nevertheless I wanted to
+  contribute, too.
+created: 2015-01-25T00:00:00Z
+tags: [Java, JavaScript]
+draft: yes
+---
 
 I know that there are lots of posts about why JavaScript, or more specifically
 Node.js, is better than Java but nevertheless I wanted to contribute, too.

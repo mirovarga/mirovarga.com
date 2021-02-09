@@ -1,8 +1,10 @@
-# LitePub Now Supports Drafts and Tags
-
-*Nov 17, 2015*
-
-*LitePub, Go*
+---
+title: LitePub Now Supports Drafts and Tags
+description: "In the previous couple of days I've been working on two new features
+  for LitePub: drafts and tags."
+created: 2015-11-17T00:00:00Z
+tags: [LitePub, Go]
+---
 
 In the previous couple of days I've been working on two new features for
 [LitePub](https://github.com/mirovarga/litepub): drafts and tags.
@@ -31,5 +33,5 @@ A post can include a comma separated tags, like this (line `5`):
 ```
 
 > Download a [release](https://github.com/mirovarga/litepub/releases) to check
-it out. If you're new to LitePub follow
-the [quick start](https://github.com/mirovarga/litepub#quick-start) to get started.
+  it out. If you're new to LitePub follow
+  the [quick start](https://github.com/mirovarga/litepub#quick-start) to get started.

@@ -1,8 +1,10 @@
-# Starting My Go Journey
-
-*Feb 9, 2015*
-
-*Go*
+---
+title: Starting My Go Journey
+description: I first heard about the Go programming language several months ago.
+created: 2015-02-09T00:00:00Z
+tags: [Go]
+draft: yes
+---
 
 ## Trying Go for the First Time
 

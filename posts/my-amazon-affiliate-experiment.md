@@ -1,8 +1,11 @@
-# My Amazon Affiliate Experiment
-
-*Mar 27, 2015*
-
-*Affiliate, Go*
+---
+title: My Amazon Affiliate Experiment
+description: On Mar 8, 2015, inspired by reading about affiliate marketing
+  (mostly on Reddit), I came up with an idea that it couldn't be so difficult to
+  earn money this way and that I would give it a try.
+created: 2015-03-27T00:00:00Z
+tags: [Affiliate, Go]
+---
 
 On Mar 8, 2015, inspired by reading about affiliate marketing (mostly on
 [Reddit](http://reddit.com/r/entrepreneur)), I came up with a ~~great~~ idea that
@@ -48,4 +51,4 @@ that they could be
 So far I made two sales and decided that I would wait while Amazon reviews
 the website. In case they reject it I will have to approach the idea differently.
 
-> There's a [sequel](/my-amazon-affiliate-experiment-a-sequel.html) to this post.
+> There's a [sequel](/my-amazon-affiliate-experiment--a-sequel.html) to this post.

@@ -1,8 +1,10 @@
-# Running CasperJS Scripts in Docker Containers
-
-*Jun 16, 2015*
-
-*Docker, JavaScript*
+---
+title: Running CasperJS Scripts in Docker Containers
+description: I used to run the casperbox.com service (now shut down) that
+  enabled to run CasperJS scripts online.
+created: 2015-06-16T00:00:00Z
+tags: [Docker, JavaScript]
+---
 
 I used to run the *casperbox.com* service (now shut down) that enabled to run
 [CasperJS](http://casperjs.org) scripts online. For security reasons, each script
@@ -15,4 +17,4 @@ So over the weekend I put together a slightly modified version of the original
 Node.js module.
 
 > If you're interested you can check it out at
-[GitHub](https://github.com/mirovarga/casperjs-docker).
+  [GitHub](https://github.com/mirovarga/casperjs-docker).

@@ -1,8 +1,10 @@
-# Building an Event Store in Node.js
-
-*Jan 21, 2015*
-
-*JavaScript*
+---
+title: Building an Event Store in Node.js
+description: As I quite like the idea of event sourcing I decided to build a
+  simple event store in Node.js.
+created: 2015-01-21T00:00:00Z
+tags: [JavaScript]
+---
 
 As I quite like the idea of
 [event sourcing](http://docs.geteventstore.com/introduction/event-sourcing-basics)
@@ -11,8 +13,7 @@ I decided to build a simple event store in Node.js.
 We'll be able to store events, retrieve events and react (do something useful)
 when an event has been stored.
 
-> You can find the complete code in the GitHub
-[repository](https://github.com/mirovarga/eventstore-node).
+> You can find the complete code in the GitHub [repository](https://github.com/mirovarga/eventstore-node).
 
 ## Adding Events
 
@@ -57,7 +58,7 @@ To do something useful after an event has been stored, we first have to register
 a function that will handle the event.
 
 > Handlers are often used as projections in
-a [CQRS](http://martinfowler.com/bliki/CQRS.html) system to update a query model.
+  a [CQRS](http://martinfowler.com/bliki/CQRS.html) system to update a query model.
 
 ```javascript
 var handlers = {};
@@ -84,7 +85,7 @@ function handleEvent(event) {
 ```
 
 > When a handler is actually called the stored event is passed as its only
-argument.
+  argument.
 
 ## Testing
 

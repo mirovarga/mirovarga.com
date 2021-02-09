@@ -1,8 +1,10 @@
-# Installing Acrobat Reader on Ubuntu 14.04
-
-*Nov 21, 2015*
-
-*Linux, How-to*
+---
+title: Installing Acrobat Reader on Ubuntu 14.04
+description: Yesterday I was generating some PDFs with attachments in Java and
+    needed to check if the attachments were really there.
+created: 2015-11-21T00:00:00Z
+tags: [Linux, How-to]
+---
 
 Yesterday I was generating some PDFs with attachments in Java (using
 [Apache PDFBox](https://pdfbox.apache.org) if you're interested) and needed to
@@ -55,7 +57,7 @@ straightforward to install it on Ubuntu. But it's not complicated either.
     ```
     
     > `--no-install-recommends` is optional. I use it to avoid installing
-    >  unneeded packages.
+      unneeded packages.
 
 4. Everything should be fine now and you can run Acrobat Reader:
 
