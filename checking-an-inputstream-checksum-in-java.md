@@ -1,11 +1,8 @@
----
-title: Checking an InputStream Checksum in Java
-description: "This week I was coding some Java and needed a way to check
-	an InputStream's checksum."
-created: 2015-06-18T00:00:00Z
-tags: [Java]
-draft: yes
----
+# Checking an InputStream Checksum in Java
+
+*Jun 18, 2015*
+
+*Draft*
 
 This week I was coding some Java and needed a way to check an InputStream's
 checksum. In addition to that, if the checksum was OK I then wanted to read from

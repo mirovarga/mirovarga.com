@@ -1,10 +1,6 @@
----
-title: LitePub Now Supports Drafts and Tags
-description: "In the previous couple of days I've been working on two new features
-  for LitePub: drafts and tags."
-created: 2015-11-17T00:00:00Z
-tags: [LitePub, Go]
----
+# LitePub Now Supports Drafts and Tags
+
+*Nov 17, 2015*
 
 In the previous couple of days I've been working on two new features for
 [LitePub](https://github.com/mirovarga/litepub): drafts and tags.

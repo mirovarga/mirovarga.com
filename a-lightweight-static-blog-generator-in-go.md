@@ -1,11 +1,6 @@
----
-title: A Lightweight Static Blog Generator in Go
-description: From its start, this blog had been a custom built website using a
-   combination of Jade for templates and Markdown for posts that were then
-   generated to static HTML files by Harp.
-created: 2015-11-12T00:00:00Z
-tags: [LitePub, Go]
----
+# A Lightweight Static Blog Generator in Go
+
+*Nov 12, 2015*
 
 From its start, this blog had been a custom built website using a combination of
 [Jade](http://jade-lang.com) for templates and Markdown for posts that were then
